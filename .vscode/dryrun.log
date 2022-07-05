@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/leo/Desktop/Inception'
+sudo mkdir -m 777 -p ~/data/wordpress
+sudo mkdir -m 777 -p ~/data/mariadb
+sudo chown -R leo ~/data
+sudo chmod -R 777 ~/data
+sudo docker network create inception_network
+cd srcs && docker-compose -p inception up -d --build
+make: Leaving directory `/Users/leo/Desktop/Inception'
+ 
