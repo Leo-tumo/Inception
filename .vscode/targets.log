@@ -6,8 +6,9 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
+ 
 
-# Make data base, printed on Thu Jul  7 18:57:23 2022
+# Make data base, printed on Thu Jul  7 19:12:06 2022
 
 # Variables
 
@@ -46,7 +47,7 @@ MARIADB_DATABASE = wordpress
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/5h/_d24rntd18v36q5p5tvf5cg00000gn/T/vscode-ipc-8269a9aa-a50f-4da7-bfaa-40ca6c3557f0.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/5h/_d24rntd18v36q5p5tvf5cg00000gn/T/vscode-ipc-c4fcd982-50e4-41b3-9257-4363c85a6a4a.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -248,7 +249,7 @@ up:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-07 18:42:42
+#  Last modified 2022-07-07 19:06:33
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -279,13 +280,13 @@ prune: fclean
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 37):
 	docker system prune --volumes --force --all
-	if $(SUDO) $(RM) $(DATA_VOLUME_PATH); then echo "No data folder to remove"; fi
+	@if $(SUDO) $(RM) $(DATA_VOLUME_PATH); then echo "No data folder to remove"; fi
 	
 
 # Not a target:
 srcs/.env:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-07 18:42:55
+#  Last modified 2022-07-07 19:06:13
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -306,7 +307,6 @@ re: prune all
 clean:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
- 
 #  Implicit/static pattern stem: `'
 #  File does not exist.
 #  File has been updated.
@@ -327,6 +327,7 @@ clean:
 # ^ := 
 # automatic
 # ? := 
+ 
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=2/12=17%
 #  commands to execute (from `Makefile', line 28):
@@ -347,6 +348,6 @@ clean:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4077 / max = 4077 / min = 4077 / avg = 4077
 
-# Finished Make data base on Thu Jul  7 18:57:23 2022
+# Finished Make data base on Thu Jul  7 19:12:06 2022
 
  
