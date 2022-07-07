@@ -1,6 +1,6 @@
 FROM		alpine:3.12
 
-LABEL		maintainer="jjourdan@student.42lyon.fr"
+LABEL		maintainer="letumany@student.42lyon.fr"
 
 RUN			apk update && apk upgrade && apk add --no-cache	\
 											openssl			\
@@ -16,9 +16,9 @@ RUN			mkdir /run/nginx &&	\
 			chown nginx:nginx /run/nginx
 
 ENV			CERTS_DIR=/etc/openssl					\
-			DOMAIN_NAME=jjourdan.42.fr					\
-			CERT_PATH=/etc/ssl/jjourdan.42.fr.cert	\
-			KEY_PATH=/etc/ssl/jjourdan.42.fr.key	\
+			DOMAIN_NAME=letumany.42.fr					\
+			CERT_PATH=/etc/ssl/letumany.42.fr.cert	\
+			KEY_PATH=/etc/ssl/letumany.42.fr.key	\
 			PHP_FPM_HOST=php-fpm					\
 			PHP_FPM_PORT=9000						\
 			TLS_VERSION=1.3

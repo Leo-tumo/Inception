@@ -1,6 +1,6 @@
 FROM alpine:3.12
 
-LABEL		maintainer="jjourdan@student.42lyon.fr"
+LABEL		maintainer="letumany@student.42lyon.fr"
 
 RUN			apk update && apk upgrade && apk add --no-cache		\
 											php7				\
@@ -31,11 +31,11 @@ ENV			MARIADB_DATABASE="wordpress"			\
 			MARIADB_HOST="mariadb"					\
 			MARIADB_PORT=3306						\
 													\
-			WP_URL="jjourdan.42.fr"				\
+			WP_URL="letumany.42.fr"				\
 			WP_TITLE="inception"			\
-			WP_ADMIN_USER="kema"					\
+			WP_ADMIN_USER="leo"					\
 			WP_ADMIN_PWD="pwd"					\
-			WP_ADMIN_EMAIL="kema@mgc.com"
+			WP_ADMIN_EMAIL="leo@mgc.com"
 
 RUN			wp core download
 

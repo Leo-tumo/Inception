@@ -1,6 +1,6 @@
 FROM	 	alpine:3.12
 
-LABEL		maintainer="jjourdan@student.42lyon.fr"
+LABEL		maintainer="letumany@student.42lyon.fr"
 
 RUN			apk update && apk upgrade && apk add --no-cache	\
 											mariadb			\
