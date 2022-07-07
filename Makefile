@@ -14,7 +14,7 @@ CHMOD		=	$(SUDO) chmod -R 777
 
 CHOWN		=	$(SUDO) chown -R leo
 
-all:	up
+all: fclean	up
 
 up:
 	$(MKDIR) $(WP_HOST_VOLUME_PATH)

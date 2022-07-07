@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Thu Jul  7 13:18:56 2022
+# Make data base, printed on Thu Jul  7 18:25:06 2022
 
 # Variables
 
@@ -35,7 +35,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 _ = /usr/bin/make
 # makefile (from `srcs/.env', line 1)
 MAKEFILE_LIST :=  Makefile srcs/.env
-# makefile (from `srcs/.env', line 20)
+# makefile (from `srcs/.env', line 21)
 CERTS_DIR = /etc/ssl/
 # makefile (from `srcs/.env', line 7)
 WP_TITLE = "inception"
@@ -46,7 +46,7 @@ MARIADB_DATABASE = wordpress
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/5h/_d24rntd18v36q5p5tvf5cg00000gn/T/vscode-ipc-a6304277-5521-412a-8a8a-13a6687b78f8.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/5h/_d24rntd18v36q5p5tvf5cg00000gn/T/vscode-ipc-6061a576-727c-4126-9a79-3252020ddb67.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -55,7 +55,7 @@ PATH = /Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/us
 MARIADB_PASSWORD = wordpress
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
-# makefile (from `srcs/.env', line 19)
+# makefile (from `srcs/.env', line 20)
 DOMAIN_NAME = letumany.42.fr
 # makefile (from `Makefile', line 13)
 CHMOD = $(SUDO) chmod -R 777
@@ -71,10 +71,10 @@ ELECTRON_RUN_AS_NODE = 1
 COMPOSE = cd srcs && docker-compose -p $(NAME)
 # makefile (from `srcs/.env', line 8)
 WP_ADMIN_USER = "leo"
-# makefile (from `srcs/.env', line 12)
+# makefile (from `srcs/.env', line 13)
 DATA_VOLUME_PATH = ~/data
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.fpPjTwqpHy/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.YBE892ixys/Listeners
 # automatic
 %F = $(notdir $%)
 # makefile (from `srcs/.env', line 1)
@@ -109,8 +109,8 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 ^D = $(patsubst %/,%,$(dir $^))
 # makefile (from `Makefile', line 11)
 MKDIR = $(SUDO) mkdir -m 777 -p
-# makefile (from `srcs/.env', line 14)
-MARIADB_HOST_VOLUME_PATH = ~/data/mariadb
+# makefile (from `srcs/.env', line 15)
+MARIADB_HOST_VOLUME_PATH = ~/letumany/data/mariadb
 # environment
 XPC_FLAGS = 0x0
 # default
@@ -145,7 +145,7 @@ TMPDIR = /var/folders/5h/_d24rntd18v36q5p5tvf5cg00000gn/T/
 VSCODE_IPC_HOOK = /Users/leo/Library/Application Support/Code/1.68.1-main.sock
 # makefile (from `Makefile', line 15)
 CHOWN = $(SUDO) chown -R leo
-# makefile (from `srcs/.env', line 21)
+# makefile (from `srcs/.env', line 22)
 TLS_VERSION = 1.3 
 # makefile
 MAKEFLAGS = Rrqp
@@ -165,13 +165,13 @@ __CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
 COMMAND_MODE = unix2003
 # default
 MAKEFILES := 
-# makefile (from `srcs/.env', line 13)
-WP_HOST_VOLUME_PATH = ~/data/wordpress
+# makefile (from `srcs/.env', line 14)
+WP_HOST_VOLUME_PATH = ~/letumany/data/wordpress
 # automatic
 <F = $(notdir $<)
-# makefile (from `srcs/.env', line 16)
-PHP_FPM_HOST = wordpress
 # makefile (from `srcs/.env', line 17)
+PHP_FPM_HOST = wordpress
+# makefile (from `srcs/.env', line 18)
 PHP_FPM_PORT = 9000
 # environment
 PAGER = less
@@ -188,7 +188,7 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 13925
+VSCODE_PID = 22120
 # makefile (from `Makefile', line 9)
 SUDO = sudo
 # variable set hash-table stats:
@@ -200,7 +200,7 @@ SUDO = sudo
 
 # Directories
 
-# . (device 16777225, inode 46296085): 9 files, no impossibilities.
+# . (device 16777223, inode 46296085): 9 files, no impossibilities.
 
 # 9 files, no impossibilities in 1 directories.
 
@@ -302,7 +302,7 @@ prune: fclean
 # Not a target:
 srcs/.env:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-05 18:12:39
+#  Last modified 2022-07-07 17:20:40
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -344,6 +344,6 @@ clean:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4077 / max = 4077 / min = 4077 / avg = 4077
 
-# Finished Make data base on Thu Jul  7 13:18:56 2022
+# Finished Make data base on Thu Jul  7 18:25:06 2022
 
  
