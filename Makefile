@@ -25,7 +25,7 @@ up:
 	$(COMPOSE) up -d --build
 
 clean:
-	if docker network rm inception_network; then echo "No network to remove"; fi
+	@if docker network rm inception_network; then echo "No network to remove"; fi
 	$(COMPOSE) stop
 
 fclean:	clean
@@ -35,6 +35,6 @@ re:		prune all
 
 prune:	fclean
 	docker system prune --volumes --force --all
-	if $(SUDO) $(RM) $(DATA_VOLUME_PATH); then echo "No data folder to remove"; fi
+	@if $(SUDO) $(RM) $(DATA_VOLUME_PATH); then echo "No data folder to remove"; fi
 
 .PHONY: all build up clean fclean re prune
