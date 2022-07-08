@@ -3,10 +3,10 @@ make: Entering directory `/Users/leo/Desktop/Inception'
 if docker network rm inception_network; then echo "No network to remove"; fi
 cd srcs && docker-compose -p inception stop
 cd srcs && docker-compose -p inception down -v
-sudo mkdir -m 777 -p ~/letumany/data/wordpress
-sudo mkdir -m 777 -p ~/letumany/data/mariadb
-sudo chown -R leo ~/letumany/data
-sudo chmod -R 777 ~/letumany/data
+sudo mkdir -m 777 -p /home/letumany/data/wordpress
+sudo mkdir -m 777 -p /home/letumany/data/mariadb
+sudo chown -R leo /home/letumany/data
+sudo chmod -R 777 /home/letumany/data
 sudo docker network create inception_network
 cd srcs && docker-compose -p inception up -d --build
 make: Leaving directory `/Users/leo/Desktop/Inception'

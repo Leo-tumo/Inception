@@ -6,9 +6,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
- 
 
-# Make data base, printed on Thu Jul  7 19:12:06 2022
+# Make data base, printed on Fri Jul  8 16:27:57 2022
 
 # Variables
 
@@ -47,7 +46,7 @@ MARIADB_DATABASE = wordpress
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/5h/_d24rntd18v36q5p5tvf5cg00000gn/T/vscode-ipc-c4fcd982-50e4-41b3-9257-4363c85a6a4a.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/5h/_d24rntd18v36q5p5tvf5cg00000gn/T/vscode-ipc-1385267f-7aec-4a00-8c7c-d02520368e90.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -73,7 +72,7 @@ COMPOSE = cd srcs && docker-compose -p $(NAME)
 # makefile (from `srcs/.env', line 8)
 WP_ADMIN_USER = "leo"
 # makefile (from `srcs/.env', line 13)
-DATA_VOLUME_PATH = ~/letumany/data
+DATA_VOLUME_PATH = /home/letumany/data
 # environment
 SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.YBE892ixys/Listeners
 # automatic
@@ -111,7 +110,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # makefile (from `Makefile', line 11)
 MKDIR = $(SUDO) mkdir -m 777 -p
 # makefile (from `srcs/.env', line 15)
-MARIADB_HOST_VOLUME_PATH = ~/letumany/data/mariadb
+MARIADB_HOST_VOLUME_PATH = /home/letumany/data/mariadb
 # environment
 XPC_FLAGS = 0x0
 # default
@@ -167,7 +166,7 @@ COMMAND_MODE = unix2003
 # default
 MAKEFILES := 
 # makefile (from `srcs/.env', line 14)
-WP_HOST_VOLUME_PATH = ~/letumany/data/wordpress
+WP_HOST_VOLUME_PATH = /home/letumany/data/wordpress
 # automatic
 <F = $(notdir $<)
 # makefile (from `srcs/.env', line 17)
@@ -189,7 +188,7 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 22120
+VSCODE_PID = 29563
 # makefile (from `Makefile', line 9)
 SUDO = sudo
 # variable set hash-table stats:
@@ -286,7 +285,7 @@ prune: fclean
 # Not a target:
 srcs/.env:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-07 19:06:13
+#  Last modified 2022-07-07 19:43:57
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -307,6 +306,7 @@ re: prune all
 clean:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
+ 
 #  Implicit/static pattern stem: `'
 #  File does not exist.
 #  File has been updated.
@@ -327,7 +327,6 @@ clean:
 # ^ := 
 # automatic
 # ? := 
- 
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=2/12=17%
 #  commands to execute (from `Makefile', line 28):
@@ -348,6 +347,6 @@ clean:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4077 / max = 4077 / min = 4077 / avg = 4077
 
-# Finished Make data base on Thu Jul  7 19:12:06 2022
+# Finished Make data base on Fri Jul  8 16:27:57 2022
 
  
